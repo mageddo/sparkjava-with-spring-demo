@@ -1,6 +1,6 @@
 # sparkjava-with-spring-demo
 
-SparkJava with Spring Boot, spring tx and spring JDBC Integration 
+SparkJava with Spring Boot, Spring TX and Spring JDBC Integration 
 
 ```bash
 $ gradle clean build bootRun
