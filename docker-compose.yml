@@ -1,4 +1,10 @@
-spring-boot-mvc-jdbc-template:
+#h2-database-server:
+#  image: oscarfonts/h2:1.1.119
+#  hostname: h2server.mageddo.dev
+#  ports:
+#    - 1521
+#    - 81
+sparkjava-springboot:
   image: openjdk:8-jre
   hostname: "bank-api.mageddo.dev"
   volumes:

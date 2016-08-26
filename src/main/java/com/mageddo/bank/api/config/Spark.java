@@ -1,4 +1,4 @@
-package com.mageddo.bank.api;
+package com.mageddo.bank.api.config;
 
 public interface Spark {
 

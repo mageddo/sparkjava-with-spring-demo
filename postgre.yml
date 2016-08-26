@@ -1,0 +1,10 @@
+version: '2'
+services:
+  postgresql:
+    image: postgres:9.3
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=root
+    container_name: postgresql-server
+    hostname: sparkjava-with-spring-db.dev
+    network_mode: bridge
