@@ -1,0 +1,9 @@
+spring-boot-mvc-jdbc-template:
+  image: openjdk:8-jre
+  hostname: "bank-api.mageddo.dev"
+  volumes:
+    - $PWD/build/distributions:/opt/spring
+  working_dir: /opt/spring
+  command: bash -c 'export _JAVA_OPTIONS="-Xmx45m -Xss256k" && tar -xf *.tar && bank-api-*/bin/bank-api'
+  mem_limit: 50m
+  memswap_limit: 0
