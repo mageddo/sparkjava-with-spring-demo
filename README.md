@@ -1,11 +1,14 @@
 # sparkjava-with-spring-demo
 
-Spring Boot with Spark Java Integration 
+SparkJava with Spring Boot, spring tx and spring JDBC Integration 
 
 ```bash
 $ gradle clean build bootRun
+```
 
-# running with docker
+Running with docker
+```bash
 $ gradle clean build
+$ docker-compose -f postgre.yml up
 $ docker-compose up
 ```
